@@ -1,3 +1,4 @@
+# Complexity: O ( n * k )
 A = [10, 5, 2, 7, 8, 7]
 k = 2
 max_k = -1
