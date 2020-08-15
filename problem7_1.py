@@ -20,7 +20,7 @@ def helper(root, value, ceil, floor):
         return ceil, floor
 
     if root.val == value:
-        return root.val
+        return root.val, root.val
     elif root.val < value:
         return helper(root.right, value, root.val, ceil)
     else:
