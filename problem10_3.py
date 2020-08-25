@@ -10,7 +10,7 @@ def check_path(start, end, dict):
             new_end = end.replace(c, '')
             return check_path(s, new_end, dict)
     return False
-words = ["dog", "dot", "daz", "cat"]
+snakes = ["dog", "dot", "daz", "cat"]
 start = "dog"
 end = "cat"
 dict = {}
